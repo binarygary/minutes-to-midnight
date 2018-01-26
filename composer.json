@@ -1,0 +1,21 @@
+{
+  "name": "garykovar/heroku",
+  "description": "minutes-to-midnight api",
+  "type": "api",
+  "require": {
+    "pimple/pimple": "^3.2"
+  },
+  "authors": [
+    {
+      "name": "Gary Kovar",
+      "email": "gkovar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Gary\\Relay\\": "src/"
+    },
+    "files": [
+    ]
+  }
+}
